@@ -11,18 +11,22 @@ fun main (args:Array<String>){
     val r: String = sc.next()
     //val b: String = sc.next()
 
-    problem3Level1AreaOfACircle(r)
+    val level1 = Level1()
+    level1.problem3Level1AreaOfACircle(r)
 }
 
-fun problem1Level1HelloWorld(){
-    println("Hello World!")
-}
+class Level1{
 
-fun problem2Level1ExtremelyBasic(a: String, b: String){
-    println("X = " + (a.toInt() + b.toInt()))
-}
+    fun problem1Level1HelloWorld(){
+        println("Hello World!")
+    }
 
-fun problem3Level1AreaOfACircle(r: String){
-    val result = BigDecimal(r.toFloat().pow(2)*3.14159).setScale(4, RoundingMode.HALF_EVEN)
-    println("A=${result}")
+    fun problem2Level1ExtremelyBasic(a: String, b: String){
+        println("X = " + (a.toInt() + b.toInt()))
+    }
+
+    fun problem3Level1AreaOfACircle(r: String){
+        val result = BigDecimal(r.toFloat().pow(2)*3.14159).setScale(4, RoundingMode.HALF_EVEN)
+        println("A=${result}")
+    }
 }
