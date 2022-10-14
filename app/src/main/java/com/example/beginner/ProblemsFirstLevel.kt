@@ -10,13 +10,6 @@ fun main (args:Array<String>){
 
     val a: String = sc.next()
     val b: String = sc.next()
-
-    problem5Level1SimpleProduct(a,b)
-}
-
-fun problem5Level1SimpleProduct(a: String, b: String){
-    val result = a.toInt() * b.toInt()
-    println("PROD = ${result}")
 }
 
 //fun problem1Level1HelloWorld(){
@@ -35,4 +28,9 @@ fun problem5Level1SimpleProduct(a: String, b: String){
 //fun problem4Level1SimpleSum(a: String, b: String){
 //    val result = a.toInt() + b.toInt()
 //    println("SOMA = ${result}")
+//}
+//
+//fun problem5Level1SimpleProduct(a: String, b: String){
+//    val result = a.toInt() * b.toInt()
+//    println("PROD = ${result}")
 //}
