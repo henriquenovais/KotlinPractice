@@ -1,9 +1,6 @@
-package com.example.beginner
+package com.example.problems
 
-import java.math.BigDecimal
-import java.math.RoundingMode
 import java.util.*
-import kotlin.math.pow
 
 fun main (args:Array<String>){
     val sc = Scanner(System.`in`)
