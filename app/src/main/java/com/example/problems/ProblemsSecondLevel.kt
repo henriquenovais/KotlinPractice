@@ -13,5 +13,4 @@ fun main (args:Array<String>) {
 }
 
 fun problem1Level2toCarryOrNotToCarry(){
-
 }
